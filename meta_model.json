@@ -1,0 +1,79 @@
+{
+  "model": "Random Forest",
+  "sklearn_version": "1.6.1",
+  "kecamatan": [
+    "Babadan",
+    "Beji",
+    "Bojong Sari",
+    "Ciangsana",
+    "Cibubur",
+    "Cilangkap",
+    "Cilodong",
+    "Cimanggis",
+    "Cinangka",
+    "Cinere",
+    "Cipayung",
+    "Cisalak",
+    "Citayam",
+    "Depok I",
+    "Depok II",
+    "Gandul",
+    "Grand Depok City",
+    "Harjamukti",
+    "Kalimanggis",
+    "Kelapa Dua",
+    "Krukut",
+    "Kukusan",
+    "Limo",
+    "Margonda",
+    "Mekarsari",
+    "Pancoran Mas",
+    "Pangkalan Jati",
+    "Pasir Putih",
+    "Rangkapanjaya",
+    "Sawangan",
+    "Studio Alam",
+    "Sukatani",
+    "Sukmajaya",
+    "Tanah Baru",
+    "Tapos",
+    "Tirtajaya",
+    "Tugu"
+  ],
+  "rentang": {
+    "kamar_tidur": [
+      1,
+      12
+    ],
+    "kamar_mandi": [
+      1,
+      12
+    ],
+    "garasi": [
+      0,
+      10
+    ],
+    "luas_tanah": [
+      15,
+      10000
+    ],
+    "luas_bangunan": [
+      15,
+      5000
+    ]
+  },
+  "default": {
+    "kamar_tidur": 3,
+    "kamar_mandi": 2,
+    "garasi": 1,
+    "luas_tanah": 102,
+    "luas_bangunan": 100
+  },
+  "metrik_test": {
+    "MAE (Rp)": 473607510.05845994,
+    "MAPE (%)": 23.090195656222008,
+    "MdAPE (%)": 13.470117018553518,
+    "R2": 0.7828425310756452
+  },
+  "jumlah_data_latih": 25509
+}
